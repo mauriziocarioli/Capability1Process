@@ -1,6 +1,6 @@
 [
   [
-    "name" : "MyTask",
+    "name" : "DummyServiceTask",
     "parameters" : [
         "MyFirstParam" : new StringDataType(),
         "MySecondParam" : new StringDataType(),
