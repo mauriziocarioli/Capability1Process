@@ -48,7 +48,7 @@
     <dependency>
       <groupId>com.insurance.handler</groupId>
       <artifactId>DummyServiceTask</artifactId>
-      <version>1.0.0-SERVICE</version>
+      <version>1.0.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
