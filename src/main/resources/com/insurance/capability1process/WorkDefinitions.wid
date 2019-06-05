@@ -2,9 +2,11 @@
   [
     "name" : "DummyServiceTask",
     "parameters" : [
-        "MyFirstParam" : new StringDataType(),
-        "MySecondParam" : new StringDataType(),
-        "MyThirdParam" : new ObjectDataType()
+        "FirstParam" : new StringDataType(),
+        "SecondParam" : new StringDataType(),
+        "ThirdParam" : new IntegerDataType(),
+        "FourthParam" : new FloatDataType()
+        
     ],
     "results" : [
         "Result" : new ObjectDataType("java.util.Map")
