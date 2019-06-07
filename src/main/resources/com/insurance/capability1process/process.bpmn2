@@ -106,19 +106,10 @@
         <bpmn2:outgoing>_3FE2E7F4-8622-402F-B79D-E770749AB3A5</bpmn2:outgoing>
         <bpmn2:ioSpecification id="_1BvwJok6EemrHfZ7xrw1fg">
           <bpmn2:dataInput id="_349805FF-D5A0-4A3F-8350-4EF7F10E977C_TaskNameInputX" drools:dtype="String" name="TaskName"/>
-          <bpmn2:dataInput id="_349805FF-D5A0-4A3F-8350-4EF7F10E977C_FirstParamInputX" drools:dtype="String" name="FirstParam"/>
-          <bpmn2:dataInput id="_349805FF-D5A0-4A3F-8350-4EF7F10E977C_SecondParamInputX" drools:dtype="String" name="SecondParam"/>
-          <bpmn2:dataInput id="_349805FF-D5A0-4A3F-8350-4EF7F10E977C_ThirdParamInputX" drools:dtype="Integer" name="ThirdParam"/>
-          <bpmn2:dataOutput id="_349805FF-D5A0-4A3F-8350-4EF7F10E977C_ResultOutputX" drools:dtype="java.util.Map" name="Result"/>
           <bpmn2:inputSet id="_1BvwJ4k6EemrHfZ7xrw1fg">
-            <bpmn2:dataInputRefs>_349805FF-D5A0-4A3F-8350-4EF7F10E977C_FirstParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_349805FF-D5A0-4A3F-8350-4EF7F10E977C_SecondParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_349805FF-D5A0-4A3F-8350-4EF7F10E977C_ThirdParamInputX</bpmn2:dataInputRefs>
             <bpmn2:dataInputRefs>_349805FF-D5A0-4A3F-8350-4EF7F10E977C_TaskNameInputX</bpmn2:dataInputRefs>
           </bpmn2:inputSet>
-          <bpmn2:outputSet id="_1BvwKIk6EemrHfZ7xrw1fg">
-            <bpmn2:dataOutputRefs>_349805FF-D5A0-4A3F-8350-4EF7F10E977C_ResultOutputX</bpmn2:dataOutputRefs>
-          </bpmn2:outputSet>
+          <bpmn2:outputSet id="_1BvwKIk6EemrHfZ7xrw1fg"/>
         </bpmn2:ioSpecification>
         <bpmn2:dataInputAssociation id="_1BvwKYk6EemrHfZ7xrw1fg">
           <bpmn2:targetRef>_349805FF-D5A0-4A3F-8350-4EF7F10E977C_TaskNameInputX</bpmn2:targetRef>
@@ -142,19 +133,10 @@
         <bpmn2:outgoing>_669EC10E-E6A3-4439-88F6-A1FB10B03527</bpmn2:outgoing>
         <bpmn2:ioSpecification id="_1BvwLok6EemrHfZ7xrw1fg">
           <bpmn2:dataInput id="_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_TaskNameInputX" drools:dtype="String" name="TaskName"/>
-          <bpmn2:dataInput id="_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_FirstParamInputX" drools:dtype="String" name="FirstParam"/>
-          <bpmn2:dataInput id="_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_SecondParamInputX" drools:dtype="String" name="SecondParam"/>
-          <bpmn2:dataInput id="_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_ThirdParamInputX" drools:dtype="java.lang.Object" name="ThirdParam"/>
-          <bpmn2:dataOutput id="_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_ResultOutputX" drools:dtype="java.util.Map" name="Result"/>
           <bpmn2:inputSet id="_1BvwL4k6EemrHfZ7xrw1fg">
-            <bpmn2:dataInputRefs>_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_FirstParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_SecondParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_ThirdParamInputX</bpmn2:dataInputRefs>
             <bpmn2:dataInputRefs>_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_TaskNameInputX</bpmn2:dataInputRefs>
           </bpmn2:inputSet>
-          <bpmn2:outputSet id="_1BvwMIk6EemrHfZ7xrw1fg">
-            <bpmn2:dataOutputRefs>_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_ResultOutputX</bpmn2:dataOutputRefs>
-          </bpmn2:outputSet>
+          <bpmn2:outputSet id="_1BvwMIk6EemrHfZ7xrw1fg"/>
         </bpmn2:ioSpecification>
         <bpmn2:dataInputAssociation id="_1BvwMYk6EemrHfZ7xrw1fg">
           <bpmn2:targetRef>_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_TaskNameInputX</bpmn2:targetRef>
@@ -163,22 +145,6 @@
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_1BvwNIk6EemrHfZ7xrw1fg">_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_TaskNameInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BvwNYk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do2</bpmn2:sourceRef>
-          <bpmn2:targetRef>_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_FirstParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BvwNok6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do7</bpmn2:sourceRef>
-          <bpmn2:targetRef>_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_SecondParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BvwN4k6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do3</bpmn2:sourceRef>
-          <bpmn2:targetRef>_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_ThirdParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataOutputAssociation id="_1BvwOIk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>_A3F2CD40-5A8A-46EF-9B33-66214CD081D3_ResultOutputX</bpmn2:sourceRef>
-          <bpmn2:targetRef>result</bpmn2:targetRef>
-        </bpmn2:dataOutputAssociation>
       </bpmn2:task>
       <bpmn2:task id="_98564A4A-4624-474C-919C-C3015C6CF91A" drools:selectable="true" drools:taskName="DummyServiceTask" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="Capability-C1">
         <bpmn2:extensionElements>
@@ -190,19 +156,10 @@
         <bpmn2:outgoing>_51D2D9AA-E0A3-45E2-B2DF-3032810CF999</bpmn2:outgoing>
         <bpmn2:ioSpecification id="_1BvwOYk6EemrHfZ7xrw1fg">
           <bpmn2:dataInput id="_98564A4A-4624-474C-919C-C3015C6CF91A_TaskNameInputX" drools:dtype="String" name="TaskName"/>
-          <bpmn2:dataInput id="_98564A4A-4624-474C-919C-C3015C6CF91A_FirstParamInputX" drools:dtype="String" name="FirstParam"/>
-          <bpmn2:dataInput id="_98564A4A-4624-474C-919C-C3015C6CF91A_SecondParamInputX" drools:dtype="String" name="SecondParam"/>
-          <bpmn2:dataInput id="_98564A4A-4624-474C-919C-C3015C6CF91A_ThirdParamInputX" drools:dtype="java.lang.Object" name="ThirdParam"/>
-          <bpmn2:dataOutput id="_98564A4A-4624-474C-919C-C3015C6CF91A_ResultOutputX" drools:dtype="java.util.Map" name="Result"/>
           <bpmn2:inputSet id="_1BvwOok6EemrHfZ7xrw1fg">
-            <bpmn2:dataInputRefs>_98564A4A-4624-474C-919C-C3015C6CF91A_FirstParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_98564A4A-4624-474C-919C-C3015C6CF91A_SecondParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_98564A4A-4624-474C-919C-C3015C6CF91A_ThirdParamInputX</bpmn2:dataInputRefs>
             <bpmn2:dataInputRefs>_98564A4A-4624-474C-919C-C3015C6CF91A_TaskNameInputX</bpmn2:dataInputRefs>
           </bpmn2:inputSet>
-          <bpmn2:outputSet id="_1BvwO4k6EemrHfZ7xrw1fg">
-            <bpmn2:dataOutputRefs>_98564A4A-4624-474C-919C-C3015C6CF91A_ResultOutputX</bpmn2:dataOutputRefs>
-          </bpmn2:outputSet>
+          <bpmn2:outputSet id="_1BvwO4k6EemrHfZ7xrw1fg"/>
         </bpmn2:ioSpecification>
         <bpmn2:dataInputAssociation id="_1BvwPIk6EemrHfZ7xrw1fg">
           <bpmn2:targetRef>_98564A4A-4624-474C-919C-C3015C6CF91A_TaskNameInputX</bpmn2:targetRef>
@@ -211,22 +168,6 @@
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_1BvwP4k6EemrHfZ7xrw1fg">_98564A4A-4624-474C-919C-C3015C6CF91A_TaskNameInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BvwQIk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do7</bpmn2:sourceRef>
-          <bpmn2:targetRef>_98564A4A-4624-474C-919C-C3015C6CF91A_FirstParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BvwQYk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do8</bpmn2:sourceRef>
-          <bpmn2:targetRef>_98564A4A-4624-474C-919C-C3015C6CF91A_SecondParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BvwQok6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do9</bpmn2:sourceRef>
-          <bpmn2:targetRef>_98564A4A-4624-474C-919C-C3015C6CF91A_ThirdParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataOutputAssociation id="_1BvwQ4k6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>_98564A4A-4624-474C-919C-C3015C6CF91A_ResultOutputX</bpmn2:sourceRef>
-          <bpmn2:targetRef>result</bpmn2:targetRef>
-        </bpmn2:dataOutputAssociation>
       </bpmn2:task>
       <bpmn2:sequenceFlow id="_FA3E570C-385B-4A22-9BC2-2E1A3B9808EB" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_8585C66D-77D2-4EFB-97A3-1E287195CB23" targetRef="_349805FF-D5A0-4A3F-8350-4EF7F10E977C"/>
       <bpmn2:sequenceFlow id="_3FE2E7F4-8622-402F-B79D-E770749AB3A5" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_349805FF-D5A0-4A3F-8350-4EF7F10E977C" targetRef="_A3F2CD40-5A8A-46EF-9B33-66214CD081D3"/>
@@ -271,21 +212,10 @@
         <bpmn2:outgoing>_0C5FC570-39A6-4390-B00D-648FD659D4C5</bpmn2:outgoing>
         <bpmn2:ioSpecification id="_1BvwR4k6EemrHfZ7xrw1fg">
           <bpmn2:dataInput id="_502B52BB-9616-426A-9D43-EE6F783FF9F3_TaskNameInputX" drools:dtype="String" name="TaskName"/>
-          <bpmn2:dataInput id="_502B52BB-9616-426A-9D43-EE6F783FF9F3_FirstParamInputX" drools:dtype="String" name="FirstParam"/>
-          <bpmn2:dataInput id="_502B52BB-9616-426A-9D43-EE6F783FF9F3_SecondParamInputX" drools:dtype="String" name="SecondParam"/>
-          <bpmn2:dataInput id="_502B52BB-9616-426A-9D43-EE6F783FF9F3_ThirdParamInputX" drools:dtype="Integer" name="ThirdParam"/>
-          <bpmn2:dataInput id="_502B52BB-9616-426A-9D43-EE6F783FF9F3_FourthParamInputX" drools:dtype="Object" name="FourthParam"/>
-          <bpmn2:dataOutput id="_502B52BB-9616-426A-9D43-EE6F783FF9F3_ResultOutputX" drools:dtype="java.util.Map" name="Result"/>
           <bpmn2:inputSet id="_1BvwSIk6EemrHfZ7xrw1fg">
-            <bpmn2:dataInputRefs>_502B52BB-9616-426A-9D43-EE6F783FF9F3_FirstParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_502B52BB-9616-426A-9D43-EE6F783FF9F3_SecondParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_502B52BB-9616-426A-9D43-EE6F783FF9F3_ThirdParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_502B52BB-9616-426A-9D43-EE6F783FF9F3_FourthParamInputX</bpmn2:dataInputRefs>
             <bpmn2:dataInputRefs>_502B52BB-9616-426A-9D43-EE6F783FF9F3_TaskNameInputX</bpmn2:dataInputRefs>
           </bpmn2:inputSet>
-          <bpmn2:outputSet id="_1BvwSYk6EemrHfZ7xrw1fg">
-            <bpmn2:dataOutputRefs>_502B52BB-9616-426A-9D43-EE6F783FF9F3_ResultOutputX</bpmn2:dataOutputRefs>
-          </bpmn2:outputSet>
+          <bpmn2:outputSet id="_1BvwSYk6EemrHfZ7xrw1fg"/>
         </bpmn2:ioSpecification>
         <bpmn2:dataInputAssociation id="_1BvwSok6EemrHfZ7xrw1fg">
           <bpmn2:targetRef>_502B52BB-9616-426A-9D43-EE6F783FF9F3_TaskNameInputX</bpmn2:targetRef>
@@ -294,26 +224,6 @@
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_1BwXMok6EemrHfZ7xrw1fg">_502B52BB-9616-426A-9D43-EE6F783FF9F3_TaskNameInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXM4k6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do1</bpmn2:sourceRef>
-          <bpmn2:targetRef>_502B52BB-9616-426A-9D43-EE6F783FF9F3_FirstParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXNIk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do6</bpmn2:sourceRef>
-          <bpmn2:targetRef>_502B52BB-9616-426A-9D43-EE6F783FF9F3_SecondParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXNYk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do9</bpmn2:sourceRef>
-          <bpmn2:targetRef>_502B52BB-9616-426A-9D43-EE6F783FF9F3_ThirdParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXNok6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do4</bpmn2:sourceRef>
-          <bpmn2:targetRef>_502B52BB-9616-426A-9D43-EE6F783FF9F3_FourthParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataOutputAssociation id="_1BwXN4k6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>_502B52BB-9616-426A-9D43-EE6F783FF9F3_ResultOutputX</bpmn2:sourceRef>
-          <bpmn2:targetRef>result</bpmn2:targetRef>
-        </bpmn2:dataOutputAssociation>
       </bpmn2:task>
       <bpmn2:task id="_ACFA2A94-6B63-4B80-BFB5-A245542C4343" drools:selectable="true" drools:taskName="DummyServiceTask" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="Capability-C1">
         <bpmn2:extensionElements>
@@ -325,19 +235,10 @@
         <bpmn2:outgoing>_862A3361-7D58-4958-BC4E-BA5AF14BAAC8</bpmn2:outgoing>
         <bpmn2:ioSpecification id="_1BwXOIk6EemrHfZ7xrw1fg">
           <bpmn2:dataInput id="_ACFA2A94-6B63-4B80-BFB5-A245542C4343_TaskNameInputX" drools:dtype="String" name="TaskName"/>
-          <bpmn2:dataInput id="_ACFA2A94-6B63-4B80-BFB5-A245542C4343_FirstParamInputX" drools:dtype="String" name="FirstParam"/>
-          <bpmn2:dataInput id="_ACFA2A94-6B63-4B80-BFB5-A245542C4343_SecondParamInputX" drools:dtype="String" name="SecondParam"/>
-          <bpmn2:dataInput id="_ACFA2A94-6B63-4B80-BFB5-A245542C4343_ThirdParamInputX" drools:dtype="Integer" name="ThirdParam"/>
-          <bpmn2:dataOutput id="_ACFA2A94-6B63-4B80-BFB5-A245542C4343_ResultOutputX" drools:dtype="java.util.Map" name="Result"/>
           <bpmn2:inputSet id="_1BwXOYk6EemrHfZ7xrw1fg">
-            <bpmn2:dataInputRefs>_ACFA2A94-6B63-4B80-BFB5-A245542C4343_FirstParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_ACFA2A94-6B63-4B80-BFB5-A245542C4343_SecondParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_ACFA2A94-6B63-4B80-BFB5-A245542C4343_ThirdParamInputX</bpmn2:dataInputRefs>
             <bpmn2:dataInputRefs>_ACFA2A94-6B63-4B80-BFB5-A245542C4343_TaskNameInputX</bpmn2:dataInputRefs>
           </bpmn2:inputSet>
-          <bpmn2:outputSet id="_1BwXOok6EemrHfZ7xrw1fg">
-            <bpmn2:dataOutputRefs>_ACFA2A94-6B63-4B80-BFB5-A245542C4343_ResultOutputX</bpmn2:dataOutputRefs>
-          </bpmn2:outputSet>
+          <bpmn2:outputSet id="_1BwXOok6EemrHfZ7xrw1fg"/>
         </bpmn2:ioSpecification>
         <bpmn2:dataInputAssociation id="_1BwXO4k6EemrHfZ7xrw1fg">
           <bpmn2:targetRef>_ACFA2A94-6B63-4B80-BFB5-A245542C4343_TaskNameInputX</bpmn2:targetRef>
@@ -346,22 +247,6 @@
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_1BwXPok6EemrHfZ7xrw1fg">_ACFA2A94-6B63-4B80-BFB5-A245542C4343_TaskNameInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXP4k6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do1</bpmn2:sourceRef>
-          <bpmn2:targetRef>_ACFA2A94-6B63-4B80-BFB5-A245542C4343_FirstParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXQIk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do8</bpmn2:sourceRef>
-          <bpmn2:targetRef>_ACFA2A94-6B63-4B80-BFB5-A245542C4343_SecondParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXQYk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do3</bpmn2:sourceRef>
-          <bpmn2:targetRef>_ACFA2A94-6B63-4B80-BFB5-A245542C4343_ThirdParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataOutputAssociation id="_1BwXQok6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>_ACFA2A94-6B63-4B80-BFB5-A245542C4343_ResultOutputX</bpmn2:sourceRef>
-          <bpmn2:targetRef>result</bpmn2:targetRef>
-        </bpmn2:dataOutputAssociation>
       </bpmn2:task>
       <bpmn2:task id="_330A5005-A920-4D89-83C6-BBADC8DD90CE" drools:selectable="true" drools:taskName="DummyServiceTask" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="Capability-B1">
         <bpmn2:extensionElements>
@@ -373,14 +258,7 @@
         <bpmn2:outgoing>_61988423-2F0C-4842-9076-EBB0DCDE78C3</bpmn2:outgoing>
         <bpmn2:ioSpecification id="_1BwXQ4k6EemrHfZ7xrw1fg">
           <bpmn2:dataInput id="_330A5005-A920-4D89-83C6-BBADC8DD90CE_TaskNameInputX" drools:dtype="String" name="TaskName"/>
-          <bpmn2:dataInput id="_330A5005-A920-4D89-83C6-BBADC8DD90CE_FirstParamInputX" drools:dtype="String" name="FirstParam"/>
-          <bpmn2:dataInput id="_330A5005-A920-4D89-83C6-BBADC8DD90CE_SecondParamInputX" drools:dtype="String" name="SecondParam"/>
-          <bpmn2:dataInput id="_330A5005-A920-4D89-83C6-BBADC8DD90CE_ThirdParamInputX" drools:dtype="Integer" name="ThirdParam"/>
-          <bpmn2:dataOutput id="_330A5005-A920-4D89-83C6-BBADC8DD90CE_ResultOutputX" drools:dtype="java.util.Map" name="Result"/>
           <bpmn2:inputSet id="_1BwXRIk6EemrHfZ7xrw1fg">
-            <bpmn2:dataInputRefs>_330A5005-A920-4D89-83C6-BBADC8DD90CE_FirstParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_330A5005-A920-4D89-83C6-BBADC8DD90CE_SecondParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_330A5005-A920-4D89-83C6-BBADC8DD90CE_ThirdParamInputX</bpmn2:dataInputRefs>
             <bpmn2:dataInputRefs>_330A5005-A920-4D89-83C6-BBADC8DD90CE_TaskNameInputX</bpmn2:dataInputRefs>
           </bpmn2:inputSet>
           <bpmn2:outputSet id="_1BwXRYk6EemrHfZ7xrw1fg">
@@ -394,22 +272,6 @@
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_1BwXSYk6EemrHfZ7xrw1fg">_330A5005-A920-4D89-83C6-BBADC8DD90CE_TaskNameInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXSok6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do5</bpmn2:sourceRef>
-          <bpmn2:targetRef>_330A5005-A920-4D89-83C6-BBADC8DD90CE_FirstParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXS4k6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do2</bpmn2:sourceRef>
-          <bpmn2:targetRef>_330A5005-A920-4D89-83C6-BBADC8DD90CE_SecondParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXTIk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do9</bpmn2:sourceRef>
-          <bpmn2:targetRef>_330A5005-A920-4D89-83C6-BBADC8DD90CE_ThirdParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataOutputAssociation id="_1BwXTYk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>_330A5005-A920-4D89-83C6-BBADC8DD90CE_ResultOutputX</bpmn2:sourceRef>
-          <bpmn2:targetRef>result</bpmn2:targetRef>
-        </bpmn2:dataOutputAssociation>
       </bpmn2:task>
       <bpmn2:task id="_1B017CA3-0B79-4344-B03A-AC6B3423466E" drools:selectable="true" drools:taskName="DummyServiceTask" color:background-color="#fafad2" color:border-color="#000000" color:color="#000000" name="Capability-X">
         <bpmn2:extensionElements>
@@ -421,21 +283,10 @@
         <bpmn2:outgoing>_ED811661-09F4-46D3-9F28-4CFE1B4EEE57</bpmn2:outgoing>
         <bpmn2:ioSpecification id="_1BwXTok6EemrHfZ7xrw1fg">
           <bpmn2:dataInput id="_1B017CA3-0B79-4344-B03A-AC6B3423466E_TaskNameInputX" drools:dtype="String" name="TaskName"/>
-          <bpmn2:dataInput id="_1B017CA3-0B79-4344-B03A-AC6B3423466E_FirstParamInputX" drools:dtype="String" name="FirstParam"/>
-          <bpmn2:dataInput id="_1B017CA3-0B79-4344-B03A-AC6B3423466E_SecondParamInputX" drools:dtype="String" name="SecondParam"/>
-          <bpmn2:dataInput id="_1B017CA3-0B79-4344-B03A-AC6B3423466E_ThirdParamInputX" drools:dtype="Integer" name="ThirdParam"/>
-          <bpmn2:dataInput id="_1B017CA3-0B79-4344-B03A-AC6B3423466E_FourthParamInputX" drools:dtype="Float" name="FourthParam"/>
-          <bpmn2:dataOutput id="_1B017CA3-0B79-4344-B03A-AC6B3423466E_ResultOutputX" drools:dtype="java.util.Map" name="Result"/>
           <bpmn2:inputSet id="_1BwXT4k6EemrHfZ7xrw1fg">
-            <bpmn2:dataInputRefs>_1B017CA3-0B79-4344-B03A-AC6B3423466E_FirstParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_1B017CA3-0B79-4344-B03A-AC6B3423466E_SecondParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_1B017CA3-0B79-4344-B03A-AC6B3423466E_ThirdParamInputX</bpmn2:dataInputRefs>
-            <bpmn2:dataInputRefs>_1B017CA3-0B79-4344-B03A-AC6B3423466E_FourthParamInputX</bpmn2:dataInputRefs>
             <bpmn2:dataInputRefs>_1B017CA3-0B79-4344-B03A-AC6B3423466E_TaskNameInputX</bpmn2:dataInputRefs>
           </bpmn2:inputSet>
-          <bpmn2:outputSet id="_1BwXUIk6EemrHfZ7xrw1fg">
-            <bpmn2:dataOutputRefs>_1B017CA3-0B79-4344-B03A-AC6B3423466E_ResultOutputX</bpmn2:dataOutputRefs>
-          </bpmn2:outputSet>
+          <bpmn2:outputSet id="_1BwXUIk6EemrHfZ7xrw1fg"/>
         </bpmn2:ioSpecification>
         <bpmn2:dataInputAssociation id="_1BwXUYk6EemrHfZ7xrw1fg">
           <bpmn2:targetRef>_1B017CA3-0B79-4344-B03A-AC6B3423466E_TaskNameInputX</bpmn2:targetRef>
@@ -444,26 +295,6 @@
             <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_1BwXVIk6EemrHfZ7xrw1fg">_1B017CA3-0B79-4344-B03A-AC6B3423466E_TaskNameInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXVYk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do7</bpmn2:sourceRef>
-          <bpmn2:targetRef>_1B017CA3-0B79-4344-B03A-AC6B3423466E_FirstParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXVok6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do8</bpmn2:sourceRef>
-          <bpmn2:targetRef>_1B017CA3-0B79-4344-B03A-AC6B3423466E_SecondParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXV4k6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do9</bpmn2:sourceRef>
-          <bpmn2:targetRef>_1B017CA3-0B79-4344-B03A-AC6B3423466E_ThirdParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_1BwXWIk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>do5</bpmn2:sourceRef>
-          <bpmn2:targetRef>_1B017CA3-0B79-4344-B03A-AC6B3423466E_FourthParamInputX</bpmn2:targetRef>
-        </bpmn2:dataInputAssociation>
-        <bpmn2:dataOutputAssociation id="_1BwXWYk6EemrHfZ7xrw1fg">
-          <bpmn2:sourceRef>_1B017CA3-0B79-4344-B03A-AC6B3423466E_ResultOutputX</bpmn2:sourceRef>
-          <bpmn2:targetRef>result</bpmn2:targetRef>
-        </bpmn2:dataOutputAssociation>
       </bpmn2:task>
       <bpmn2:sequenceFlow id="_D5D4A362-191F-4EAF-9119-0ECD2961E346" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_94FC507A-34DB-4C90-8B92-4350BF84C946" targetRef="_1B017CA3-0B79-4344-B03A-AC6B3423466E"/>
       <bpmn2:sequenceFlow id="_ED811661-09F4-46D3-9F28-4CFE1B4EEE57" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_1B017CA3-0B79-4344-B03A-AC6B3423466E" targetRef="_330A5005-A920-4D89-83C6-BBADC8DD90CE"/>
