@@ -46,8 +46,8 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.insurance.handler</groupId>
-      <artifactId>DummyServiceTask</artifactId>
+      <groupId>com.insurance</groupId>
+      <artifactId>Capability1Process-model</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
