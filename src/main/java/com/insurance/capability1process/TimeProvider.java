@@ -9,6 +9,8 @@ import java.time.Instant;
 public class TimeProvider implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
+    
+    private Instant currentInstant;
 
     public TimeProvider() {
         
