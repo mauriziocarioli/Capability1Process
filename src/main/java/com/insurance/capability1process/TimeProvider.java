@@ -9,7 +9,7 @@ import java.time.Instant;
 public class TimeProvider implements java.io.Serializable {
 
     public TimeProvider() {
-        }
+    }
         
     public Instant getCurrentInstant() {
             return Instant.now();
